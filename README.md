@@ -26,8 +26,6 @@ Note: This assumes an ARM architecture. Might need to use something like Qemu if
 
 ### If you are compiling with a non-ARM64-bit Arch
 
-Install Arch: `sudo apt install gcc-7-aarch64-linux-gnu -y`
-
-`sudo apt-get update -y && sudo apt-get install -y gcc-7-aarch64-linux-gnu-base`
+Install Arch: `sudo apt-get update -y && sudo apt-get install -y gcc-7-aarch64-linux-gnu-base`
 
 Install Qemu Cross-Platform Compiler: `sudo apt install qemu -y`
