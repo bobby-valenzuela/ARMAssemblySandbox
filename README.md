@@ -16,3 +16,4 @@ Or if you are using gcc to compile: `gcc hello.o -o hello.elf -nostdlib`
 Note: This assumes an ARM architecture. Might need to use something like Qemu if compiling on a non-ARM Architecture.
 
 
+__All programs using 32-bit ARM Assembly unless filename contains 'aarch64'__
