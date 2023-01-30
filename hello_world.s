@@ -21,7 +21,3 @@
 		MOV R7, #0x1
 		MOV R0, #0
 		SWI 0
-
-# compile on native ARM Architecture: 
-# as 001.asm -o 001.o
-# gcc 001.o -o 001.elf -nostdlib
