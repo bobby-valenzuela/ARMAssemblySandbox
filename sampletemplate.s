@@ -15,6 +15,4 @@ _start:
 	MOV R2,#0x19	# Place 25 (Base 16 - HEX) in R2
 	MOV R7,#1
 
-# compile on native: 
-# as 001.asm -o 001.o
-# gcc 001.o -o 001.elf -nostdlib
+# Declare labels as needed
