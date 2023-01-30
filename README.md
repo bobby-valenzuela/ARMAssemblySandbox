@@ -11,7 +11,8 @@ Create an object file with: `as -o hello.o hello_world.s`
 
 Then compile with: `ld -o hello hello.o`
 
-Note: This assumes an ARM architecture. Might need to use something like Qemu if compiling on a non-ARM Architecture.
+Or if you are using gcc to compile: `gcc hello.o -o hello.elf -nostdlib`
 
+Note: This assumes an ARM architecture. Might need to use something like Qemu if compiling on a non-ARM Architecture.
 
 
